@@ -51,3 +51,6 @@ def goo(x, y):
 
 a = goo(foo, 3)
 print(a)  # 18
+
+# 1g
+#

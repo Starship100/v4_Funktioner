@@ -51,7 +51,7 @@ def goo(x, y):
 
 a = goo(foo, 3)
 print(a)  # 18
-"""""
+
 # 1g
 def is_number(x):
     if isinstance(x, (str, float, int)):
@@ -63,14 +63,12 @@ def is_number(x):
 print(is_number("hej"))
 print(is_number(5.5))
 print(is_number(42))
-
+"""""
 # 1h
 def average_words(strings):
     found = []
     for item in strings:
-        #print("Kontollerar: ", item)
-        #if 4 < len(item) < 8:
-            #print(" -> läggs till")
+        if 4 < len(item) < 8:
             found.append(item)
     return found
 

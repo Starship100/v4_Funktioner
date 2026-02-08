@@ -75,3 +75,22 @@ def average_words(strings):
 print(average_words(["sup", "how's", "it", "going", "reflecting",
               "on", "programs", "and", "coding"]))
 
+# 1i
+def find_min(numbers):
+    # if numbers == []:
+    if not numbers:
+        tom_lista = print("Listan är tom.")
+        return tom_lista
+
+    counter = numbers[0]
+    for item in numbers:
+        if item < counter:
+            counter = item
+    print(f"The smallest item is:  {counter}")
+    return counter
+
+find_min([10, 3, -4, -11])
+find_min([])
+find_min([100])
+
+

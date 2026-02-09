@@ -4,6 +4,8 @@ import eko
 import loop_five_turns
 import last
 import cut_edges
+from fel_i_koden import increase
+import average
 
 str_module.string_funktion("Jimmy")
 
@@ -14,3 +16,7 @@ loop_five_turns.loop_five_turns()
 print(last.last([1, 2, 3]))
 
 print(cut_edges.cut_edges([1, 2, 3, 4, 10]))
+
+print(increase(3))
+
+print(average.average(50, 100))

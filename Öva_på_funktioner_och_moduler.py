@@ -31,7 +31,7 @@ def fun2(i):
 x = 2
 y = 3
 a = fun2(fun2(x) + fun2(y))  # Först räknas det inom parantesen x * 5, y * 5 = 10 + 15 = 25
-print(a)  # 125 - Sedan räknas den övre funktionen ut 5 * 25
+print(a)  # 125 - Sedan räknas den med den övre funktionen ut 5 * 25
 
 # 1e
 # Guess: 7

@@ -13,4 +13,4 @@ loop_five_turns.loop_five_turns()
 
 print(last.last([1, 2, 3]))
 
-print(cut_edges.cut_edges([1, 2, 3, 4, 10]))j
+print(cut_edges.cut_edges([1, 2, 3, 4, 10]))

@@ -6,11 +6,11 @@ import last
 import cut_edges
 from fel_i_koden import increase
 import average
-from pretty_list import pretty_print
+import
 
 str_module.string_funktion("Jimmy")
 
-eko.eko("hej", 50)
+eko.eko("hej", 20)
 
 loop_five_turns.loop_five_turns()
 
@@ -23,4 +23,7 @@ print(increase(3))
 print(average.average(50, 100))
 
 print(pretty_list.pretty_print(["a", "b", 3.14]))
+
+print(last.last([1, 2, 3, 4]))
+print(my_function())
 
